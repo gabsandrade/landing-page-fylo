@@ -47,12 +47,24 @@ body {
 .container-submit{
     display: flex;
     justify-content: space-between;
+    padding: 86px 80px 0 80px;
+    gap: 13px;
 }
 .submit-info{
+    background-color:blueviolet;
+    
+}
 
+.submit-img{
+    width: 640px;
+    height: 474px;
 }
 .info-description{
-
+    width: 585px;
+    font-family: "Open sans", sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53px;
 }
 .info-title{
     font-family: "Raleway", sans-serif;
