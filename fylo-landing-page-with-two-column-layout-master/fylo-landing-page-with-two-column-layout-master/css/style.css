@@ -14,6 +14,7 @@
 font-family: "Raleway", sans-serif;
 font-family: "Open sans", sans-serif;
 */
+/* trocar as unidades px para EM, REM */
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -50,34 +51,84 @@ body {
     padding: 86px 80px 0 80px;
     gap: 13px;
 }
-.submit-info{
-    background-color:blueviolet;
-    
-}
+
 
 .submit-img{
     width: 640px;
     height: 474px;
 }
+
+.info-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
 .info-description{
     width: 585px;
     font-family: "Open sans", sans-serif;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.53px;
+    margin-bottom: 25px;
 }
-.info-title{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-}
+
 .submit-box{
 
 }
 .box-email{
+    border: 1px solid var(--primaryColor);
+    border-radius: 4px;
+    padding: 14px 172px 12px 21px;
+    margin-right: 16px;
+}
 
+.box-email::placeholder{
+    font-family: "Open sans", sans-serif;
+    color: hsl(0, 0%, 76%);
+    font-size: 14px;
 }
 .box-button{
+    background-color:  var(--accentPrimary);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 14px 61px;
+    border-radius: 4px;
 
+}
+
+/* Section Productive */
+
+.container-productive{
+    background-color: var(--neutralBlue);
+    display: flex;
+    justify-content: space-around;
+    gap: 88px;
+    padding: 0 80px 107px 80px;
+    
+}
+
+.productive-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.productive-title{
+
+}
+.productive-descr{
+
+}
+.founder-img{
+
+}
+.productive-img{
+    width: 542px;
+    height: 409px;
 }
